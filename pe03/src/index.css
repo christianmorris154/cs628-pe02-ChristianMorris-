@@ -1,0 +1,70 @@
+.todo-list-app 
+{
+  margin: 30px; 
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 
+{
+text-align: center;
+}
+
+.add-task input 
+{
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  align-content: center;
+}
+button.add-task-button 
+{
+  background-color: #3c8ce1; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+ul 
+{
+  list-style: none;
+  padding: 0;
+}
+
+li 
+{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e7e4e4;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+button.delete-task-button 
+{
+  background-color: #cf2f3f; 
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
